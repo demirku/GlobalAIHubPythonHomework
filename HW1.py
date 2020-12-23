@@ -1,0 +1,7 @@
+value1,value2, value3, value4, value5 =input("Enter a five value: ").split()
+a=int(value1)
+b=int(value2)
+c=int(value3)
+d=int(value4)
+e=int(value5)
+print(f'1. value {a} & type of value {type(a)}\n2. value {b} & type of value {type((b))}\n3. value {c} & type of value {type(c)}\n4. value {d} & type of value {type(d)}\n5. value {e} & type of value {type(e)}')
